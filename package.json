@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tailwind": "npx tailwindcss-cli@latest build ./tailwind-init.css -o ./tailwind.css"
   },
   "author": "Zaid Rashid",
   "license": "ISC",
   "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
     "tailwindcss": "^2.0.3"
   }
 }
